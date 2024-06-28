@@ -323,6 +323,10 @@ def translate(dna: str, table: int = 1) -> str:
     valid_bases = {'A', 'T', 'C', 'G'}
     if not set(dna).issubset(valid_bases):
         raise ValueError("Invalid DNA sequence: Contains characters other than A, T, C, G")
+    valid_table_id = [1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16,
+                      21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    if table not in valid_table_id:
+        raise ValueError(f"Invalid table ID: {table}. Valid table IDs are {valid_table_id}")
     if N % 3 != 0:
         print("Warning: DNA sequence length is not a multiple of 3. The incomplete trailing bases will be ignored.")
 

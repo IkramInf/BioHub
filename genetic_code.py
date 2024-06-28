@@ -194,3 +194,4 @@ tables = {
 			'stop_codons': ['TAG']
 		}
 }
+
