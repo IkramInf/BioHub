@@ -49,3 +49,7 @@ git clone [https://github.com/yourusername/biohub.git](https://github.com/IkramI
 
 # Contributions
 We welcome contributions from the bioinformatics community! If you have a tool or script that you think would be a valuable addition to BioHub, please submit a pull request. For major changes, please open an issue first to discuss your ideas.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
