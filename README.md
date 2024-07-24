@@ -45,7 +45,7 @@ BioHub is a comprehensive collection of essential bioinformatics tools and scrip
 # Getting Started
 To get started with BioHub, clone the repository and explore the various directories and scripts. Detailed documentation and usage examples are provided for each tool to help you quickly integrate them into your workflows.
 
-git clone [https://github.com/yourusername/biohub.git](https://github.com/IkramInf/BioHub.git)
+git clone [https://github.com/IkramInf/BioHub.git](https://github.com/IkramInf/BioHub.git)
 
 # Contributions
 We welcome contributions from the bioinformatics community! If you have a tool or script that you think would be a valuable addition to BioHub, please submit a pull request. For major changes, please open an issue first to discuss your ideas.
